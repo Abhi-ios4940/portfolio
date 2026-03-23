@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, NavLink, Navigate } from 'react-router-do
 import aiWeatherImage from './assets/ai-weather-screenshot.png'
 import Achievements from './Achievements';
 import Resume from "./Resume";
-import myPhoto from './assets/myphoto.jpg';
+import myPhoto from './assets/myphoto.jpeg';
 import Contact from "./Contact";
 import { useNavigate } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const AchievementsPage = () => (
 
 const NavBar = () => (
   <header className="top-nav">
-    <div className="brand">NH <span>Portfolio</span></div>
+    <div className="brand">ASR <span>Portfolio</span></div>
     <nav>
       <NavLink to="/" end className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink>
       <NavLink to="/skills" className={({ isActive }) => isActive ? 'active-link' : ''}>Skills</NavLink>
@@ -46,10 +46,10 @@ const Home = () => {
   <img src={myPhoto} alt="profile" className="avatar-img" />
 </div>
         <p className="eyebrow">Full Stack Developer</p>
-        <h1>NAFISHA HAQUE</h1>
+        <h1>Abhijeet Singh Rathore</h1>
         <p className="hero-sub">Welcome to my digital space! I design smart solutions through code, transforming ideas into engaging experiences that address real-world challenges.</p><br />
         <div className="skill-pills"><span>JavaScript</span><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Git</span></div><br />
-        <div className="hero-actions"><NavLink className="btn primary" to="/projects">View My Work</NavLink><a className="btn outline" href="https://github.com/NAFISHAHAQUE" target="_blank" rel="noreferrer">GitHub Profile</a></div>
+        <div className="hero-actions"><NavLink className="btn primary" to="/projects">View My Work</NavLink><a className="btn outline" href="https://github.com/AbhijeetSingh-Rathore" target="_blank" rel="noreferrer">GitHub Profile</a></div>
       </div>
     </section>
     <About />
@@ -143,8 +143,8 @@ const Projects = () => {
       category: ['Frontend','API Integration'],
       featured: true,
       image: '/aipicss.jpg',
-      demo: 'https://github.com/NAFISHAHAQUE/AIweatherproject',
-      code: 'https://github.com/NAFISHAHAQUE/AIweatherproject'
+      demo: 'https://github.com/AbhijeetSingh-Rathore/AIweather',
+      code: 'https://github.com/AbhijeetSingh-Rathore/AIweather'
     },
     {
       title: 'QuizzyPop',
@@ -153,8 +153,8 @@ const Projects = () => {
       category: ['Frontend','Web App'],
       featured: false,
       image: '/quizss.jpg',
-      demo: 'https://github.com/NAFISHAHAQUE/quizformicroit',
-      code: 'https://github.com/NAFISHAHAQUE/quizformicroit'
+      demo: 'https://github.com/AbhijeetSingh-Rathore/Quiz',
+      code: 'https://github.com/AbhijeetSingh-Rathore/Quiz'
     },
     {
       title: 'FlexCore',
@@ -163,8 +163,8 @@ const Projects = () => {
       category: ['Full Stack','Web App'],
       featured: false,
       image: '/flex.jpg',
-      demo: 'https://github.com/NAFISHAHAQUE/FlexCore',
-      code: 'https://github.com/NAFISHAHAQUE/FlexCore'
+      demo: 'https://github.com/AbhijeetSingh-Rathore/FlexCore',
+      code: 'https://github.com/AbhijeetSingh-Rathore/FlexCore'
     },
     {
       title: 'BeatBrew',
@@ -173,8 +173,8 @@ const Projects = () => {
       category: ['Frontend','Web App'],
       featured: false,
       image: '/beatss.jpg',
-      demo: 'https://github.com/NAFISHAHAQUE/musicplaylistmanager2',
-      code: 'https://github.com/NAFISHAHAQUE/musicplaylistmanager2'
+      demo: 'https://github.com/AbhijeetSingh-Rathore/musicplaylistmanager2',
+      code: 'https://github.com/AbhijeetSingh-Rathore/musicplaylistmanager2'
     }
   ]
 
@@ -253,7 +253,7 @@ const About = () => (
           <div className="card facts">
             <h3>Quick Facts</h3>
             <ul>
-              <li><strong>Location:</strong> Bihar, India</li>
+              <li><strong>Location:</strong> Rajasthan, India</li>
               <li><strong>Education:</strong> B.Tech in Computer Science</li>
               <li><strong>Experience:</strong> 2+ years</li>
             </ul>
@@ -273,7 +273,7 @@ const About = () => (
 
           <h3>My Journey</h3>
           <p>
-            Hello! I'm NAFISHA HAQUE, a passionate developer with a deep fascination for transforming complex problems into elegant digital solutions.
+            Hello! I'm Abhijeet Singh Rathore, a passionate developer with a deep fascination for transforming complex problems into elegant digital solutions.
           </p>
 
           <p>
@@ -311,8 +311,8 @@ const Certifications = () => {
       date: 'October 2024',
       skills: ['NoSQL', 'CRUD', 'Indexing', 'Node.js Integration'],
       description: 'Course teaches how to use a NoSQL database that stores data in flexible documents instead of tables. It covers collections, CRUD operations, and basic querying. You also learn indexing and how to connect MongoDB with apps like Node.js or PHP.',
-      url: 'https://drive.google.com/file/d/1PNwtNiSmSVGWdapZPyNlmEPCp0UXrGsT/view?usp=drive_link',
-      image: '/mongoss.jpg'
+      url: 'https://drive.google.com/file/d/13PGPjHT2dogiuSCNltbIl9LjnjCdkCrm/view?usp=drive_link',
+      image: '/mongoss.png'
     },
     {
       title: 'Infosys',
@@ -320,8 +320,8 @@ const Certifications = () => {
       date: 'July 2025',
       skills: ['Node.js', 'Express', 'REST APIs'],
       description: 'Course teaches the basics of computational theory, including formal languages and finite automata. It explains how machines process input using states and transitions. The course helps in understanding the foundation of computer science and problem-solving models.',
-      url: 'https://drive.google.com/file/d/1o-JXEjVcxH7CGtzdeE3ZExRs8KBGC8Qx/view?usp=drive_link',
-      image: '/infoss.jpg'
+      url: 'https://drive.google.com/file/d/1Dgl18gEt3pMz5QVGlLUnXD_QtJKdtWhz/view?usp=drive_link',
+      image: '/infoss.png'
     },
     {
       title: 'Web Development',
@@ -329,8 +329,8 @@ const Certifications = () => {
       date: 'June 2025',
       skills: ['Responsive UI', 'Modern CSS', 'Web Fundamentals'],
       description: 'Focuses on practical learning of IT skills through real-world tasks and projects. It helps students gain experience in areas like programming, web development, or databases while improving problem-solving and teamwork. The internship also builds industry exposure and prepares learners for future job opportunities.',
-      url: 'https://drive.google.com/file/d/1sVWtdRYtr1GYjZKItD9aCr9TK4vh-cAp/view?usp=drive_link',
-      image: '/micss.jpg'
+      url: 'https://drive.google.com/file/d/1cL8v-LrCXEkfC9inp3GE6rGPDel0wRdy/view?usp=drive_link',
+      image: '/micss.png'
     }
   ]
   return (
@@ -392,7 +392,7 @@ const WaveBackground = () => (
       viewBox="0 0 1440 320"
     >
       <path
-        fill="#241466"
+        fill="#0b3b24"
         fillOpacity="0.3"
         d="M0,160L48,181.3C96,203,192,245,288,240C384,235,480,181,576,176C672,171,768,213,864,218.7C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224V320H0Z"
       >

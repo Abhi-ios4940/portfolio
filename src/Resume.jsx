@@ -105,10 +105,10 @@ const Resume = () => {
 
       {/* CONTACT BUTTONS */}
       <div className="contact-row">
-        <a href="mailto:nafishahaque4@gmail.com" className="pill">📧 nafishahaque4@gmail.com</a>
-        <a href="tel:+918935839718" className="pill">📱 +91-8935839718</a>
-        <a href="https://linkedin.com/in/nafisha-haque/" target="_blank" className="pill">🔗 LinkedIn</a>
-        <a href="https://github.com/NAFISHAHAQUE" target="_blank" className="pill">💻 GitHub</a>
+        <a href="mailto:rabhi4940@gmail.com" className="pill">📧 rabhi4940@gmail.com</a>
+        <a href="tel:+919680840836" className="pill">📱 +91-9680840836</a>
+        <a href="https://linkedin.com/in/abhijeetsinghrathore9" target="_blank" className="pill">🔗 LinkedIn</a>
+        <a href="https://github.com/AbhijeetSingh-Rathore" target="_blank" className="pill">💻 GitHub</a>
       </div>
 
       {/* DOWNLOAD BUTTON */}
@@ -137,27 +137,27 @@ const Resume = () => {
         <h3>Lovely Professional University</h3>
         <p className="location">Punjab, India</p>
         <p>Bachelor of Technology - Computer Science and Engineering</p>
-        <p className="cgpa">CGPA: 6.74</p>
+        <p className="cgpa">CGPA: 6.19</p>
       </div>
       <span className="date">Since August 2023</span>
     </div>
 
     <div className="resume-card">
       <div>
-        <h3>R.J.S Inter College</h3>
-        <p className="location">Hajipur, Bihar</p>
+        <h3>Tagore Public College</h3>
+        <p className="location">Jaipur, Rajasthan</p>
         <p>Intermediate</p>
-        <p className="cgpa">Percentage: 89%</p>
+        <p className="cgpa">Percentage: 71%</p>
       </div>
       <span className="date">2020 - 2022</span>
     </div>
 
     <div className="resume-card">
       <div>
-        <h3>F.K.A.N.S Girl’s High School</h3>
-        <p className="location">Hajipur, Bihar</p>
+        <h3>Jamna Vidhyapeeth School</h3>
+        <p className="location">Jaipur, Rajasthan</p>
         <p>Matriculation</p>
-        <p className="cgpa">Percentage: 81%</p>
+        <p className="cgpa">Percentage: 70%</p>
       </div>
       <span className="date">2019 - 2020</span>
     </div>

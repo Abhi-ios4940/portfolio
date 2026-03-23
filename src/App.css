@@ -1,3 +1,11 @@
+:root {
+  --primary: #8b5cf6;      /* main color */
+  --secondary: #19937e;    /* accent color */
+  --background: #acc521;   /* dark background */
+  --card-bg: #1e293b;
+  --text: #ffffff;
+  --muted: #94a3b8;
+}
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -197,7 +205,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1b223f;
+  background: #162252;
   padding: 20px;
   margin: 20px 0;
   border-radius: 12px;
@@ -205,7 +213,7 @@
 }
 
 .ach-card:hover {
-  box-shadow: 0 0 15px #7c6cff;
+  box-shadow: 0 0 15px #1a4a3d;
 }
 
 .left {
@@ -219,7 +227,7 @@
 }
 
 .date {
-  background: #2a2f5c;
+  background: #27522f;
   padding: 6px 12px;
   border-radius: 15px;
 }
@@ -248,7 +256,7 @@
 }
 
 .pill {
-  background: #1b223f;
+  background: #162046;
   padding: 10px 15px;
   border-radius: 20px;
   color: white;
@@ -294,7 +302,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background: #1b223f;
+  background: #0f3028;
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 14px;
   padding: 20px 25px;
@@ -346,7 +354,7 @@
 }
 
 .project-card {
-  background: #1b223f;
+  background: #0d403b;
   border-radius: 20px;
   /* overflow: hidden; */
 }
@@ -361,7 +369,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: #7c6cff;
+  background: #0f4928;
   padding: 5px 10px;
   border-radius: 10px;
   font-size: 12px;
@@ -410,7 +418,7 @@
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #7c6cff;
-  box-shadow: 0 0 20px #7c6cff80;
+  box-shadow: 0 0 20px #1a5a3b80;
 }
 
 /* .contact-container {
@@ -674,7 +682,7 @@
   width: 100%;
   height: 100%;
   z-index: 0; /* NOT -1 */
-  background: #04090b;
+  background: #091920;
 }
 
 .waves {
@@ -703,4 +711,191 @@
 .contact-header {
   position: relative;
   z-index: 10;
+}
+
+:root {
+  --primary: #22c55e;
+  --secondary: #4ade80;
+  --background: #02160f;
+  --card-bg: #052e1b;
+  --text: #ffffff;
+  --muted: #94a3b8;
+}
+
+/* GLOBAL */
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+/* AVATAR */
+.avatar-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--primary);
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.5);
+}
+
+/* CARDS */
+.skill-card,
+.project-card,
+.certification-card,
+.resume-card,
+.contact-card,
+.ach-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.skill-card:hover,
+.project-card:hover,
+.certification-card:hover,
+.resume-card:hover,
+.contact-card:hover,
+.ach-card:hover {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.3);
+  border-color: var(--primary);
+}
+
+/* BUTTONS */
+.btn.primary,
+.contact-card button,
+.download a {
+  background: linear-gradient(90deg, #16a34a, #22c55e);
+  color: white;
+  border: none;
+}
+
+.btn.primary:hover {
+  background: #15803d;
+}
+
+.btn.outline {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+/* NAV ACTIVE */
+.active-link {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
+
+/* HEADINGS */
+h1 span,
+h2 span {
+  color: var(--primary);
+}
+
+/* PROGRESS BAR */
+.skill-bar div {
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+}
+
+/* CONTACT HEADER */
+.contact-header h1 {
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* INPUT FOCUS */
+.contact-card input:focus,
+.contact-card textarea:focus {
+  box-shadow: 0 0 10px var(--primary);
+}
+
+/* LINKS */
+.info-item a:hover {
+  color: var(--primary);
+}
+
+/* SCROLL MOUSE */
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid var(--primary);
+  border-radius: 20px;
+  margin: 0 auto 10px;
+  position: relative;
+}
+
+.mouse::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: var(--primary);
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scroll 1.5s infinite;
+}
+
+/* CTA SECTION */
+.cta-section {
+  margin-top: 50px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #022c22, #001a12);
+  color: white;
+}
+
+.cta-btn {
+  background: white;
+  color: #16a34a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* WAVE BACKGROUND */
+.wave-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: #02160f;
+}
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  width: 200%;
+}
+
+/* APP LAYER */
+.app-shell {
+  position: relative;
+  z-index: 2;
+  background: transparent !important;
+}
+
+/* PROJECT GRID */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ANIMATION */
+@keyframes scroll {
+  0% { opacity: 0; top: 8px; }
+  50% { opacity: 1; }
+  100% { opacity: 0; top: 20px; }
 }

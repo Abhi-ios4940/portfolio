@@ -17,8 +17,8 @@ const Achievements = () => {
     },
     {
       icon: "🏆",
-      title: "Placed in Dean's List",
-      desc: "Recognized among top 10% students.",
+      title: "Placed in S1 List",
+      desc: "Recognized among top 50% students.",
       date: "August 2024",
     },
   ];

@@ -148,25 +148,25 @@ const Contact = () => {
 
           <div className="info-item">
   <FaEnvelope />
-  <a href="mailto:nafishaque4@gmail.com">nafishaque4@gmail.com</a>
+  <a href="mailto:rabhi4940@gmail.com">rabhi4940@gmail.com</a>
 </div>
 
 <div className="info-item">
   <FaPhone />
-  <a href="tel:+918935839718">+91-8935839718</a>
+  <a href="tel:+919680840836">+91-9680840836</a>
 </div>
 
 <div className="info-item">
   <FaLinkedin />
-  <a href="https://linkedin.com/in/nafisha-haque" target="_blank">
-    linkedin.com/in/nafisha-haque
+  <a href="https://www.linkedin.com/in/abhijeetsinghrathore9" target="_blank">
+    linkedin.com/in/abhijeetsinghrathore9
   </a>
 </div>
 
 <div className="info-item">
   <FaGithub />
-  <a href="https://github.com/NAFISHAHAQUE" target="_blank">
-    github.com/NAFISHAHAQUE
+  <a href="https://github.com/AbhijeetSingh-Rathore" target="_blank">
+    github.com/AbhijeetSingh-Rathore
   </a>
 </div>
 
